@@ -11,7 +11,7 @@ def convert_to_speech():
     for page in reader.pages:
         text += page.extract_text() + "\n"
     tts = gTTS(text)
-    tts.save('finished-projects/81-100. [PRO]/90. [HTTP Requests & Apis]  PDF to Audiobook Converter/AudioBook.mp3')
+    tts.save('AudioBook.mp3')
     root.destroy()
 
 win_label = tk.Label(root, text='Enter path')
