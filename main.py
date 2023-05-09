@@ -14,7 +14,7 @@ def convert_to_speech():
     tts.save('AudioBook.mp3')
     root.destroy()
 
-win_label = tk.Label(root, text='Enter path')
+win_label = tk.Label(root, text='Enter path for a pdf file')
 doc_path = tk.Entry(root, width=50)
 submit_button = tk.Button(root, text="Submit", command=convert_to_speech)
 
